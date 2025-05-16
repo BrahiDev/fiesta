@@ -1,2 +1,0 @@
-# FiestaPing-inos
-Juego
