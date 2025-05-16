@@ -21,7 +21,7 @@ class MainScene extends Phaser.Scene {
     preload() {
         this.load.image('player', '/Player.png');
         this.load.image('background', '/sky.png');
-        this.load.image('senal', '/point.png');
+        this.load.image('senal', '/Point.png');
         this.load.image('chulito_verde', '/chulito_verde.png');
         this.load.image('chulito_rojo', '/chulito_rojo.png');
         this.load.image('cruz_roja', '/cruz_roja.png'); // Carga la imagen de la cruz roja
