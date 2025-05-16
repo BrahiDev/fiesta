@@ -19,7 +19,7 @@ class MainScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('player', '/player.png');
+        this.load.image('player', '/Player.png');
         this.load.image('background', '/sky.png');
         this.load.image('senal', '/point.png');
         this.load.image('chulito_verde', '/chulito_verde.png');
@@ -175,9 +175,9 @@ class MainScene extends Phaser.Scene {
         if (!this.gameOverTriggered) {
             let urlMinijuego = '';
             switch (taskId) {
-                case 0: urlMinijuego = 'pesca.html'; break;
-                case 1: urlMinijuego = 'objetos.html'; break;
-                case 2: urlMinijuego = 'globos.html'; break;
+                case 0: urlMinijuego = '/pesca.html'; break;
+                case 1: urlMinijuego = '/objetos.html'; break;
+                case 2: urlMinijuego = '/globos.html'; break;
                 default: console.log(`taskId desconocido para abrir minijuego: ${taskId}`); return;
             }
             window.open(urlMinijuego, '_blank');
