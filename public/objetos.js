@@ -31,10 +31,10 @@ function preload() {
     this.load.image('objeto4', '/cerveza4.png');
     this.load.image('objeto5', '/comida5.png');
     this.load.image('objeto6', '/instrumento6.png');
-    this.load.image('objeto7', '/piñata7.png');
+    this.load.image('objeto7', '/pinata7.png');
     this.load.image('objeto8', '/decoracion8.png');
     this.load.image('objeto9', '/bebida9.png');
-    this.load.image('objeto10', '/piñata10.png');
+    this.load.image('objeto10', '/pinata10.png');
 }
 
 function create() {
