@@ -4,11 +4,11 @@ class Winner extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('WinnerBackground', 'assets/fondo iglu 2.jpg');
-        this.load.image('titulo_Winner', 'assets/YOU_WIN.png');
-        this.load.image('Personaje_Winner', 'assets/personaje_winner.png');
-        this.load.image('botonMenu', 'assets/boton_regreso.png');
-        this.load.audio('victoria', 'assets/victoria.mp3'); 
+        this.load.image('WinnerBackground', '/fondo iglu 2.jpg');
+        this.load.image('titulo_Winner', '/YOU_WIN.png');
+        this.load.image('Personaje_Winner', '/personaje_winner.png');
+        this.load.image('botonMenu', '/boton_regreso.png');
+        this.load.audio('victoria', '/victoria.mp3'); 
     }
 
     create() {

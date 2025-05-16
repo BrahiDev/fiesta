@@ -29,8 +29,8 @@ let gameTimer;
 let hookSpeed = 5; // Velocidad de movimiento del gancho
 
 function preload() {
-    this.load.image('fish', 'assets/fish.png');
-    this.load.image('hook', 'assets/cuerda-pesca.png'); // Asegúrate de tener la imagen del gancho
+    this.load.image('fish', '/fish.png');
+    this.load.image('hook', '/cuerda-pesca.png'); // Asegúrate de tener la imagen del gancho
 }
 
 function create() {

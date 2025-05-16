@@ -5,10 +5,10 @@ class MenuPrincipal extends Phaser.Scene {
     
     preload() {
     // Aquí cargaremos los assets necesarios para el menú
-    this.load.image('fondoMenu', 'assets/fondo iglu 2.jpg'); // Ajusta la ruta
-    this.load.image('titulo', 'assets/TITULO-JUEGO.png'); // Ajusta la ruta
-    this.load.image('Personaje', 'assets/Player.png'); // Ajusta la ruta
-    this.load.image('botonJugar', 'assets/boton_jugar.png'); // Ajusta la ruta
+    this.load.image('fondoMenu', '/fondo iglu 2.jpg'); // Ajusta la ruta
+    this.load.image('titulo', '/TITULO-JUEGO.png'); // Ajusta la ruta
+    this.load.image('Personaje', '/Player.png'); // Ajusta la ruta
+    this.load.image('botonJugar', '/boton_jugar.png'); // Ajusta la ruta
     // Puedes cargar más imágenes o spritesheets si los necesitas para animaciones.
     }
     

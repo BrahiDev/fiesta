@@ -19,13 +19,13 @@ class MainScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('player', 'assets/player.png');
-        this.load.image('background', 'assets/sky.png');
-        this.load.image('senal', 'assets/point.png');
-        this.load.image('chulito_verde', 'assets/chulito_verde.png');
-        this.load.image('chulito_rojo', 'assets/chulito_rojo.png');
-        this.load.image('cruz_roja', 'assets/cruz_roja.png'); // Carga la imagen de la cruz roja
-        this.load.audio('tarea_completada', 'assets/tarea_completada.mp3');
+        this.load.image('player', '/player.png');
+        this.load.image('background', '/sky.png');
+        this.load.image('senal', '/point.png');
+        this.load.image('chulito_verde', '/chulito_verde.png');
+        this.load.image('chulito_rojo', '/chulito_rojo.png');
+        this.load.image('cruz_roja', '/cruz_roja.png'); // Carga la imagen de la cruz roja
+        this.load.audio('tarea_completada', '/tarea_completada.mp3');
     }
 
     create() {

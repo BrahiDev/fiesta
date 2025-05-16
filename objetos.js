@@ -21,20 +21,20 @@ let temporizador;
 let gameEnded = false; // Bandera para evitar llamadas múltiples a endGame
 
 function preload() {
-    this.load.image('iglu', 'assets/fondo iglu 2.jpg');
-    this.load.image('mesa', 'assets/mesa.png');
-    this.load.image('decoracionColgante1', 'assets/decoracion-colgante1.png');
-    this.load.image('decoracionColgante2', 'assets/decoracion-colgante2.png');
-    this.load.image('objeto1', 'assets/decoracion1.png');
-    this.load.image('objeto2', 'assets/planta2.png');
-    this.load.image('objeto3', 'assets/palomitas3.png');
-    this.load.image('objeto4', 'assets/cerveza4.png');
-    this.load.image('objeto5', 'assets/comida5.png');
-    this.load.image('objeto6', 'assets/instrumento6.png');
-    this.load.image('objeto7', 'assets/piñata7.png');
-    this.load.image('objeto8', 'assets/decoracion8.png');
-    this.load.image('objeto9', 'assets/bebida9.png');
-    this.load.image('objeto10', 'assets/piñata10.png');
+    this.load.image('iglu', '/fondo iglu 2.jpg');
+    this.load.image('mesa', '/mesa.png');
+    this.load.image('decoracionColgante1', '/decoracion-colgante1.png');
+    this.load.image('decoracionColgante2', '/decoracion-colgante2.png');
+    this.load.image('objeto1', '/decoracion1.png');
+    this.load.image('objeto2', '/planta2.png');
+    this.load.image('objeto3', '/palomitas3.png');
+    this.load.image('objeto4', '/cerveza4.png');
+    this.load.image('objeto5', '/comida5.png');
+    this.load.image('objeto6', '/instrumento6.png');
+    this.load.image('objeto7', '/piñata7.png');
+    this.load.image('objeto8', '/decoracion8.png');
+    this.load.image('objeto9', '/bebida9.png');
+    this.load.image('objeto10', '/piñata10.png');
 }
 
 function create() {

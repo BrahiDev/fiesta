@@ -6,11 +6,11 @@ class GameOver extends Phaser.Scene {
     preload() {
         // Aquí puedes cargar assets específicos para la pantalla de Game Over,
         // como una imagen de fondo o un botón de "Volver al Menú".
-        this.load.image('gameOverBackground', 'assets/sky_game_over.PNG'); // Opcional
-        this.load.image('titulo_game_over', 'assets/GAME_OVER.png'); // Ajusta la ruta
-        this.load.image('Personaje_game_over', 'assets/dead_game_over.png'); // Ajusta la ruta
-        this.load.image('botonMenu', 'assets/boton_regreso.png'); // Opcional
-        this.load.audio('derrota', 'assets/derrota.wav');
+        this.load.image('gameOverBackground', '/sky_game_over.PNG'); // Opcional
+        this.load.image('titulo_game_over', '/GAME_OVER.png'); // Ajusta la ruta
+        this.load.image('Personaje_game_over', '/dead_game_over.png'); // Ajusta la ruta
+        this.load.image('botonMenu', '/boton_regreso.png'); // Opcional
+        this.load.audio('derrota', '/derrota.wav');
     }
 
     create() {
