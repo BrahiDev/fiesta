@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Fiesta de pingüinos</title>
+        <style>
+            body { margin: 0; }
+            #minigameContainer {
+                position: absolute;
+                top: 100px;
+                left: 200px;
+                width: 400px;
+                height: 300px;
+                background-color: white;
+                border: 2px solid black;
+                display: none;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+                z-index: 10;
+            }
+            #minigameFrame {
+                width: 100%;
+                height: 100%;
+            }
+            #taskCounter {
+                position: absolute;
+                top: 20px; /* Ajusta la posición vertical según necesites */
+                left: 20px; /* Ajusta la posición horizontal según necesites */
+                font-size: 20px; /* Ajusta el tamaño de la fuente */
+                color: black; /* Ajusta el color del texto */
+                /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Añade una sombra para mejor legibilidad */
+                z-index: 100; /* Asegura que esté por encima del canvas de Phaser */
+            }
+        </style>
+        <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+    </head>
+    <body>
+        <div id="taskCounter">Tareas: 0/3</div>
+        <script>
+            window.addEventListener('message', (event) => {
+                if (event.data && event.data.from === 'main' && event.data.taskCounter) {
+                    document.getElementById('taskCounter').textContent = 'Tareas: ' + event.data.taskCounter;
+                }
+            }, false);
+        </script>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
